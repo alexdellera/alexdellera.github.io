@@ -3,114 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Official personal website of Alex Dell'Era, strategic communication and marketing professional in the healthcare sector." />
-  <meta name="keywords" content="Alex Dell'Era, strategic marketing, healthcare communication, Canon Medical, innovation" />
-  <meta name="author" content="Alex Dell'Era" />
-  <title>Alex Dell'Era | Strategic Healthcare Communication</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Alex Dell’Era is an award-winning strategic communicator and Top 100 CMO focused on innovating health with purpose." />
+  <meta name="keywords" content="Alex Dell’Era, CMO, Strategic Communicator, Healthcare Marketing, Ethical Communication" />
+  <meta name="author" content="Alex Dell’Era" />
+  <title>Alex Dell’Era – Strategic Communicator</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #0d0d0d;
-      color: #f2f2f2;
-    }
-    header {
-      padding: 60px 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: linear-gradient(135deg, #111, #1a1a1a);
-    }
-    header img {
-      border-radius: 12px;
-      max-height: 400px;
-      width: auto;
-      box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
-    }
-    .intro {
-      max-width: 600px;
-    }
-    h1 {
-      font-size: 48px;
-      margin: 0 0 20px;
-      color: #e60000;
-    }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-    .cta {
-      margin-top: 30px;
-    }
-    .cta a {
-      text-decoration: none;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0c0c0c;
       color: #fff;
-      background-color: #e60000;
-      padding: 12px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      padding: 40px;
+      gap: 60px;
+      align-items: center;
+    }
+    .text {
+      flex: 1 1 480px;
+    }
+    .text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    .text h1 span {
+      display: block;
+    }
+    .text p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #fff;
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 12px 28px;
+      border: none;
       border-radius: 6px;
+      text-decoration: none;
       transition: background 0.3s;
     }
-    .cta a:hover {
-      background-color: #b00000;
+    .btn:hover {
+      background-color: #e60000;
+      color: white;
     }
-    footer {
+    .image {
+      flex: 1 1 360px;
       text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #999;
+    }
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
     }
     @media (max-width: 768px) {
-      header {
+      .container {
         flex-direction: column;
         text-align: center;
       }
-      header img {
-        margin-top: 30px;
-        max-width: 80%;
+      .text h1 {
+        font-size: 36px;
+      }
+      .text p {
+        font-size: 18px;
       }
     }
   </style>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Alex Dell'Era",
-      "url": "https://alexdellera.com",
-      "image": "https://alexdellera.com/alex-dellera.jpg",
-      "sameAs": [
-        "https://www.linkedin.com/in/alex-dell-era-4508475b/"
-      ],
-      "jobTitle": "Strategic Marketing & Communication Manager",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Canon Medical Systems Italia"
-      },
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Politecnico di Milano"
-      },
-      "birthPlace": {
-        "@type": "Place",
-        "name": "Como, Italy"
-      }
-    }
-  </script>
 </head>
 <body>
-  <header>
-    <div class="intro">
-      <h1>Alex Dell’Era</h1>
-      <p>Strategic communication and marketing expert in the healthcare sector. With a passion for responsible innovation, Alex drives impactful projects that connect brands, professionals, and ideas across the global health landscape.</p>
-      <div class="cta">
-        <a href="https://www.linkedin.com/in/alex-dell-era-4508475b/" target="_blank">Connect on LinkedIn</a>
-      </div>
+  <main class="container">
+    <div class="text">
+      <h1>
+        <span>Strategic Communicator.</span>
+        <span>Top 100 CMO.</span>
+        <span>Innovating Health with Purpose.</span>
+      </h1>
+      <p>
+        Alex Dell’Era is an award-winning health sector marketing and communication leader
+        with a focus on driving responsible innovation. Recognized among the top 100 Chief
+        Marketing Officers, he blends strategic vision with ethical marketing practices to
+        reshape healthcare.
+      </p>
+      <a class="btn" href="https://www.linkedin.com/in/alex-dell-era-4508475b/" target="_blank">Contact</a>
     </div>
-    <img src="alex-dellera.jpg" alt="Alex Dell'Era portrait" />
-  </header>
-  <footer>
-    &copy; 2025 Alex Dell'Era. All rights reserved.
-  </footer>
+    <div class="image">
+      <img src="alex-dellera.jpg" alt="Alex Dell’Era portrait" />
+    </div>
+  </main>
 </body>
 </html>
